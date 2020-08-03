@@ -21,6 +21,7 @@ function memo() {
         </div>`;
       list.insertAdjacentHTML("afterend", HTML);
 
+      formText.value = "";
 
       if (XHR.status != 200) {
         alert(`Error ${XHR.status}: ${XHR.statusText}`);
